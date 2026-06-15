@@ -57,12 +57,12 @@ Data preparation/recoding:
 Note: Scripts should be run in the order specified in `0_social_inequalities_miscarriage_BCS70_master.do` as later scripts may depend on outputs from earlier ones.
 
 ## FILE DESCRIPTIONS
-Master Script
+### Master Script
 
    `0_social_inequalities_miscarriage_BCS70_master.do` 
    --> Coordinates execution of all recoding and analysis do-files in the correct sequence
 
-### Recoding Scripts
+### Data editing Scripts (see folder dataedit)
 
 `1a_social_inequalities_miscarriage_BCS70_preparation_response.do` 
 --> creates the base that is used to build the relevant datafile
@@ -88,7 +88,7 @@ Master Script
 `1h_social_inequalities_miscarriage_BCS70_preparation_combined.do` 
 --> deletes variables not used, recodes variables for analysis
 
-### Analysis Scripts
+### Analysis Scripts (see folder analysis)
 
 `2_social_inequalities_miscarriage_BCS70_analyses.do` 
 --> runs the descriptive statistics and multi-level discrete-time event-history models used in this paper
