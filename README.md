@@ -33,7 +33,7 @@ Data access via UK Data Service: https://datacatalogue.ukdataservice.ac.uk/serie
 
 To reproduce all analyses:
 1) Clone or download this repository
-2) Download relevant data from UK Data Service
+2) Download relevant data from UK Data Service (sweeps 4-9)
 3) Open Stata and set the working directory (including the relevant data files)
 4) Run the master do-file: `0_social_inequalities_miscarriage_BCS70_master.do`
 
