@@ -55,11 +55,13 @@ Note: Scripts should be run in the order specified in `0_social_inequalities_mis
 ## FILE DESCRIPTIONS
 Master Script
 
-    source("0_social_inequalities_miscarriage_BCS70_master.do") # - Coordinates execution of all recoding and analysis do-files in the correct sequence
+   `0_social_inequalities_miscarriage_BCS70_master.do` 
+   --> Coordinates execution of all recoding and analysis do-files in the correct sequence
 
 # Recoding Scripts
 
-`1a_social_inequalities_miscarriage_BCS70_preparation_response.do` # - creates the base that is used to build the relevant datafile
+`1a_social_inequalities_miscarriage_BCS70_preparation_response.do` 
+--> creates the base that is used to build the relevant datafile
 `1b_social_inequalities_miscarriage_BCS70_preparation_sweep4.do` # - extracts the relevant variables from sweep 4 and combines them to the main datafile
 `1c_social_inequalities_miscarriage_BCS70_preparation_sweep5.do` # - extracts the relevant variables from sweep 5 and combines them to the main datafile
 `1d_social_inequalities_miscarriage_BCS70_preparation_sweep6.do` # - extracts the relevant variables from sweep 6 and combines them to the main datafile
