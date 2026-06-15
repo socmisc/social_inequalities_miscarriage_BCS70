@@ -34,7 +34,7 @@ To reproduce all analyses:
 4) Run the master do-file:
    <!-- -->
 
-    source("social_inequalities_miscarriage_BCS70_master.do")
+    source("0_social_inequalities_miscarriage_BCS70_master.do")
 
 *Running Individual Do-files
 
