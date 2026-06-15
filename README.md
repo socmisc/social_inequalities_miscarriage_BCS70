@@ -15,7 +15,7 @@ And correction: Väisänen, H., & Keenan, K. (2026) Correction: Measuring social
 
 ## OVERVIEW
 
-This repository contains Stata code used for data processing and statistical analysis reported in the above publication. The paper used the British Cohort Study (1970) to investigate whether individuals’ socioeconomic characteristics (education, income, occupational class) were associated with their likelihood of self-reporting a miscarriage over the reproductive life course. The paper conducted descriptive analyses and multi-level discrete-time event-history models first among all women and then only taking into account pregnancy episodes. The code shows how the dataset was built and how the analyses were conducted.
+This repository contains Stata code used for data processing and statistical analysis reported in the above publication. The paper used the British Cohort Study (1970) to investigate whether individuals’ socioeconomic characteristics (education, income, occupational class) were associated with their likelihood of self-reporting a miscarriage over the reproductive life course. The paper conducted descriptive analyses and multi-level discrete-time event-history models first among all women and then only taking into account pregnancy episodes. The code shows how the dataset was built and how the analyses were conducted. The code runs the corrected version of the analysis, as explained here: https://doi.org/10.55016/m1c52c04
 
 
 ## DATA
