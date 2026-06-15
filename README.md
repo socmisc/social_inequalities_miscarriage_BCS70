@@ -25,7 +25,7 @@ Data access via UK Data Service: https://datacatalogue.ukdataservice.ac.uk/serie
 
 ## USAGE
 
-*Quick start
+### Quick start
 
 To reproduce all analyses:
 1) Clone or download this repository
@@ -33,7 +33,7 @@ To reproduce all analyses:
 3) Open Stata and set the working directory (including the relevant data files)
 4) Run the master do-file: `0_social_inequalities_miscarriage_BCS70_master.do`
 
-*Running Individual Do-files
+### Running Individual Do-files
 
 Data preparation/recoding:
 
@@ -46,7 +46,7 @@ Data preparation/recoding:
 `1g_social_inequalities_miscarriage_BCS70_preparation_sweep9.do`
 `1h_social_inequalities_miscarriage_BCS70_preparation_combined.do`
 
-Statistical analyses:
+### Statistical analyses:
 
 `2_social_inequalities_miscarriage_BCS70_analyses.do`
 
@@ -58,7 +58,7 @@ Master Script
    `0_social_inequalities_miscarriage_BCS70_master.do` 
    --> Coordinates execution of all recoding and analysis do-files in the correct sequence
 
-# Recoding Scripts
+### Recoding Scripts
 
 `1a_social_inequalities_miscarriage_BCS70_preparation_response.do` 
 --> creates the base that is used to build the relevant datafile
@@ -84,7 +84,7 @@ Master Script
 `1h_social_inequalities_miscarriage_BCS70_preparation_combined.do` 
 --> deletes variables not used, recodes variables for analysis
 
-# Analysis Scripts
+### Analysis Scripts
 
 `2_social_inequalities_miscarriage_BCS70_analyses.do` 
 --> runs the descriptive statistics and multi-level discrete-time event-history models used in this paper
