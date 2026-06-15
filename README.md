@@ -32,7 +32,7 @@ To reproduce all analyses:
 2) Download relevant data from UK Data Service
 3) Open Stata and set the working directory (including the relevant data files)
 4) Run the master do-file:
-   source("Master")
+   source("0_social_inequalities_miscarriage_BCS70_master.do")
 
 *Running Individual Do-files
 
