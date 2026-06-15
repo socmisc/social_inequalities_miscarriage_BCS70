@@ -17,22 +17,6 @@ And correction: Väisänen, H., & Keenan, K. (2026) Correction: Measuring social
 
 This repository contains Stata code used for data processing and statistical analysis reported in the above publication. The paper used the British Cohort Study (1970) to investigate whether individuals’ socioeconomic characteristics (education, income, occupational class) were associated with their likelihood of self-reporting a miscarriage over the reproductive life course. The paper conducted descriptive analyses and multi-level discrete-time event-history models first among all women and then only taking into account pregnancy episodes. The code shows how the dataset was built and how the analyses were conducted. The code runs the corrected version of the analysis, as explained here: https://doi.org/10.55016/m1c52c04
 
-## REPOSITORY STRUCTURE
-
-├── README.md                                                                         # This file
-├── 0_social_inequalities_miscarriage_BCS70_master.do                                 # Master script - runs all analyses in sequence 
-├── dataedit/                                # Data preparation and recoding scripts 
-│   ├── 1a_social_inequalities_miscarriage_BCS70_preparation_response.do       # Create base for combining data
-│   ├── 1b_social_inequalities_miscarriage_BCS70_preparation_sweep4.do         # Recoding sweep 4
-│   ├── 1c_social_inequalities_miscarriage_BCS70_preparation_sweep5.do         # Recoding sweep 5
-│   ├── 1d_social_inequalities_miscarriage_BCS70_preparation_sweep6.do         # Recoding sweep 6
-│   ├── 1e_social_inequalities_miscarriage_BCS70_preparation_sweep7.do         # Recoding sweep 7
-│   ├── 1f_social_inequalities_miscarriage_BCS70_preparation_sweep8.do         # Recoding sweep 8
-│   ├── 1g_social_inequalities_miscarriage_BCS70_preparation_sweep9.do         # Recoding sweep 9
-│   └── 1h_social_inequalities_miscarriage_BCS70_preparation_combined          # Recoding final analysis dataset
-├── analysis/                                # Statistical analysis scripts 
-│   ├── 2_social_inequalities_miscarriage_BCS70_analyses.do   # do file for analysis in Stata 
-
 ## REQUIREMENTS
 
 ### Software
