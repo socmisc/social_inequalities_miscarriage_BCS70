@@ -100,8 +100,9 @@ For questions about the code or analysis, please contact:
 Heini Väisänen
 Email: heini.vaisanen@ined.fr
 
-**Last Updated:** 15 June 2026
-
 ## ACKNOWLEDGEMENTS
 
 This work was funded by the European Union (ERC, SOC-MISC, Grant agreement ID: 101077594). Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or the European Research Council Executive Agency. Neither the European Union nor the granting authority can be held responsible for them.
+
+
+**Last Updated:** 15 June 2026
