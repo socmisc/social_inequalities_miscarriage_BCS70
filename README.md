@@ -62,24 +62,32 @@ Master Script
 
 `1a_social_inequalities_miscarriage_BCS70_preparation_response.do` 
 --> creates the base that is used to build the relevant datafile
+
 `1b_social_inequalities_miscarriage_BCS70_preparation_sweep4.do` 
 --> extracts the relevant variables from sweep 4 and combines them to the main datafile
+
 `1c_social_inequalities_miscarriage_BCS70_preparation_sweep5.do` 
 --> extracts the relevant variables from sweep 5 and combines them to the main datafile
+
 `1d_social_inequalities_miscarriage_BCS70_preparation_sweep6.do` 
 --> extracts the relevant variables from sweep 6 and combines them to the main datafile
+
 `1e_social_inequalities_miscarriage_BCS70_preparation_sweep7.do` 
 --> extracts the relevant variables from sweep 7 and combines them to the main datafile
+
 `1f_social_inequalities_miscarriage_BCS70_preparation_sweep8.do` 
 --> extracts the relevant variables from sweep 8 and combines them to the main datafile
+
 `1g_social_inequalities_miscarriage_BCS70_preparation_sweep9.do` 
 --> extracts the relevant variables from sweep 9 and combines them to the main datafile
+
 `1h_social_inequalities_miscarriage_BCS70_preparation_combined.do` 
 --> deletes variables not used, recodes variables for analysis
 
 # Analysis Scripts
 
-`2_social_inequalities_miscarriage_BCS70_analyses.do` # - runs the descriptive statistics and multi-level discrete-time event-history models used in this paper
+`2_social_inequalities_miscarriage_BCS70_analyses.do` 
+--> runs the descriptive statistics and multi-level discrete-time event-history models used in this paper
 
 ## LICENSE
 
